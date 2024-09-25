@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 2vh 5vw 2vh 5vw;
+    background-color: crimson;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    border: 1px solid black;
+    flex-basis: calc(100%/16);
+    height: calc(100%/16);
+    background-color: white;
+}
+
+.bottom-left {
+    border-bottom-left-radius: 25%;
+} 
+
+.bottom-right {
+    border-bottom-right-radius: 25%;
+} 
+
+.top-left {
+    border-top-left-radius: 25%;
+} 
+
+.top-right {
+    border-top-right-radius: 25%;
+} 
+ 
